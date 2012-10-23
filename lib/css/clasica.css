@@ -1,0 +1,174 @@
+*{
+	font-family: "Calibri", arial;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+form{
+	width:500px;
+}
+form div label{
+    text-align: left;
+    width: 35%;
+    float: left;
+    padding: 10px 0px;
+}
+input, input[type=text], input[type=password]{
+	width: 65%;
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+input[type=submit], input[type=button]{
+	font-size: 1.3em;
+	width: auto;
+	cursor: pointer;
+	background: #F1F1F1;
+	padding: 10px 20px;
+}
+input[type=submit]:hover, input[type=button]:hover{
+	background: #333;
+	color: #fff;
+}
+input:focus{
+	background: #FFFFF0;
+}
+nav{
+	width: 98.5%;
+	top: 0px;
+	color: #fff;
+	padding: 10px;
+	background: #333 url(../../files/imgs/fnd-nav.png);
+	overflow: hidden;
+}
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+nav ul li{
+	list-style: none;
+	color: #fff;
+	float: left;
+	margin: 0px 10px;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #26FF26;
+}
+section#body{
+	background:
+		url(../../files/imgs/fnd-body-top-right.png) no-repeat top right,
+		url(../../files/imgs/fnd-body-center-left.png) no-repeat bottom left;
+}
+section header#head{
+	font-family: "Century Schoolbook";
+	color: #D9D900;
+	font-size: 5em;
+	padding: 20px;
+}
+section header#head a{
+	text-decoration: none;
+	font-family: "Century Schoolbook";
+	color: #D9D900;
+	padding: 0px 30px;
+}
+section header#head a:hover{
+	border-bottom: 2px solid #D9D900;
+}
+section article#content{
+	min-height: 400px;
+	width: 40%;
+	overflow: auto;
+	padding: 10px;
+	float: right;
+	margin: 30px;
+	text-align: justify;
+	color: #333;
+}
+footer#foot{
+	background: #333 url(../../files/imgs/fnd-footer.png) no-repeat center;
+	z-index: 1;
+	text-align: center;
+	color: #CCC;
+	padding: 20px;
+}
+footer#foot img{
+	padding: 7px;
+}
+section article fieldset{
+	border: none;
+}
+section article fieldset legend{
+	color: #D9D900;
+	text-align: left;
+	font-size: 3em;
+}
+section article fieldset article{
+	padding: 0px;
+	margin: 0px;
+}
+.hidden{
+	display: none;
+}
+#messageModal{
+	z-index: 1;
+	font-style: italic;
+	padding: 10px;
+	position: fixed;
+    top: 0px;
+    left: 40%;
+	width: 20%;
+	display: none;
+	overflow: hidden;
+	border-radius: 0px 0px 10px 10px;
+}
+#messageModal a{
+	color: #D9D900;
+	text-decoration: none;
+}
+#messageModal a:hover{
+	color: #333;
+}
+.textNormal{
+	text-align: left;
+	color: #D9D900;
+}
+.textInfo{
+	text-align: left;
+	color: #2693FF;
+}
+.textError{
+	text-align: right;
+	color: #f00;
+}
+.normal{
+	color: #D9D900;
+	background: #FFFFF0;
+	border: 1px solid #D9D900;
+}
+.info{
+	color: #2693FF;
+	background: #E6F2FF;
+	border: 1px solid #2693FF;
+}
+.error{
+	color: #f00;
+	background: #fff;
+	border: 1px solid #f00;
+}
+.close{
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+nav .profile{
+	float: right;
+}
+img{
+	vertical-align: middle;
+}
